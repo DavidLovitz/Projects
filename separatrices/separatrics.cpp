@@ -12,7 +12,7 @@ void initGL(void)
 	glViewport(0, 0, (GLsizei)WIN_SIZE, (GLsizei)WIN_SIZE);
     //set up camera view (could use GL_MODELVIEW?)
 	glMatrixMode(GL_PROJECTION);
-	glLoadIdentity();//resets a 'global' perspective matrix to the identity matrix?
+	glLoadIdentity();//resets a 'global' perspective matrix to the identity matrix
 	glTranslatef(-0.5, -0.5, 0.0);//moves the 'camera' position away from origin
     glScalef(1.0,1.0,1.0);//set scale
     //set textures, shading, blending etc.
